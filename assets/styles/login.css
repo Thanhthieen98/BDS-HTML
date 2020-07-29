@@ -1,0 +1,22 @@
+.form__login .row .pl-6r{
+  padding-right: 6rem !important;
+}
+.form__login form input::placeholder{
+  color: var(--colorGray1);
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+.form__login form button{
+  font-size: 1.125rem;
+}
+.form__login .icon__facebook{
+  width: 2rem;
+  height: 2rem;
+}
+.form__login .icon__facebook i{
+  font-size: 1.125rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form__login .btn-block{
+  font-size: 0.875rem;
+}

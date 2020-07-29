@@ -1,0 +1,80 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1303px;
+  }
+}
+
+
+@media(max-width: 1199.98px) {
+  .menu__logo {
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  .menu__nav ul li a {
+    font-size: 1rem;
+  }
+  .info .info__ul li a {
+    font-size: 1.25rem;
+    color: var(--colorWhite);
+  }
+
+  .info .w-sm-350px {
+    width: 21.875rem;
+  }
+
+  .info .info__form input {
+    height: 3.5rem;
+    width: 15.5rem;
+  }
+
+  .info .text--info {
+    padding-right: 1rem;
+  }
+
+  .info .text--copyright {
+    padding-right: 1rem;
+  }
+}
+@media (min-width: 992px) { 
+  .btn__social{
+    display: none;
+  }
+}
+@media (max-width: 769px) { 
+  .js--overlay__social.active{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  .js--social{
+    display: none;
+  }
+  .js--social.active{
+    display: flex;
+  }
+  .js--overlay__social{
+    display: none;
+  }
+
+  .btn__social{
+    display: block;
+    position: fixed;
+    top: 40vh;
+    right: 0;
+  }
+  .btn__social i{
+    font-size: 1.5625rem;
+    color: var(--colorGray2);
+  }
+  
+}
+
+@media (max-width: 767.98px) {
+  html {
+    font-size: 12px;
+  }
+}

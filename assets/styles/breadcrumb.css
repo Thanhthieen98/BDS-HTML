@@ -1,0 +1,14 @@
+.breadcrumb__line ul.breadcrumb li+li:before {
+  color: var(--colorGray2);
+  content: "/\00a0";
+}
+
+.breadcrumb__line ul.breadcrumb {
+  padding: 0.75rem 1rem 0 1rem;
+}
+.breadcrumb__line ul.breadcrumb a {
+  color: var(--colorGray2);
+}
+.breadcrumb__line ul {
+  margin: 0;
+}

@@ -1,0 +1,166 @@
+
+/* welcome */
+.welcome h1{
+  margin-bottom: 1.8125rem;
+}
+
+
+/* end welcome */
+
+/* profile */
+
+.profile__background{
+  padding-top: 2.3125rem;
+}
+.profile__info{
+  padding-bottom: 3.875rem;
+}
+.profile__info .info__buy{
+  width: 24%;
+  margin-right: 2.3125rem;
+}
+.info__buy .buy__index2__icon{
+  width: 1.295rem;
+  height: 1.1875rem;
+  margin-bottom: 0.375rem;
+}
+.info__buy .buy__index2 p{
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: var(--colorBlack2);
+}
+.info__buy .buy__index2 h5{
+  font-size: 0.875rem;
+}
+.info__buy .buy__index3  p{
+  font-size: 1.125rem;
+}
+.info__buy .buy__index3 {
+  padding: 1.125rem 0 1.375rem 0;
+}
+.info__buy .chat{
+  padding: 2.5rem 1.5rem 3.75rem 1.625rem;
+}
+
+.profile__info .info__content{
+  width: 80%;
+}
+.profile__info .content__menu .active{
+  background-color: var(--colorPrimary3);
+}
+.profile__info .content__menu .active a{
+  font-weight: 500;
+}
+.profile__info .content{
+  padding: 1.625rem 1.875rem 4.25rem 1.875rem;
+}
+.content .content__title{
+  margin-bottom: 1.375rem;
+}
+.content .content__title p{
+  border-bottom: 0.25rem solid var(--colorPrimary3);
+}
+.content .content__body .body__table h2{
+  font-weight: 300;
+  font-size: 2.25rem;
+}
+.content .content__body .body__table span{
+  align-items: baseline;
+}
+.content .content__body .body__table table{
+  margin-top: 2.1875rem;
+  border: 1px solid var(--colorGray1);
+  font-size: 1.125rem;
+}
+.body__table table tr td:nth-child(odd){
+  padding-left: 1.5rem;
+}
+.body__table table tr td:nth-child(even){
+  padding-left: 4.375rem;
+  padding-right: 0.875rem;
+}
+.body__table table tr td:nth-child(odd){
+  font-weight: 300;
+}
+.body__table table tr td:nth-child(even){
+  font-weight: bold;
+}
+.body__table table tr:nth-child(odd){
+  background-color: var(--colorGray1);
+}
+
+
+.content .text2{
+  margin-top: 2.1875rem;
+}
+.content .content__text h6{
+  font-size: 1.125rem;
+}
+
+@media (min-width:1440px){
+  .welcome__image {
+    width: 90.125rem;
+    margin: 0 auto;
+  }
+  .profile__background{
+    width: 90.125rem;
+    margin: 0 auto;
+  }
+}
+@media (max-width:1300px){
+  .profile__info .info__buy {
+    margin-right: 1rem;
+  }
+  .info__content .body__table h2{
+    margin-left: 0.25rem !important;
+  }
+  .info__content .body__table .body__table__icon{
+    margin-left: 0.25rem !important;
+  }
+  .body__table table tr td:nth-child(odd){
+    padding-left: 0.25rem;
+  }
+  .body__table table tr td:nth-child(even){
+    padding: 0;
+  }
+}
+@media(max-width:1200px){
+  .profile__info .info__buy{
+    width: 30%;
+  }
+  .profile__info .info__content{
+    width: 70%;
+  }
+  .info__content .content__menu .px-3{
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+  }
+}
+@media (max-width: 991.98px) { 
+  .profile__info .info__buy{
+    width: 100%;
+  }
+  .profile__info .info__content{
+    width: 100%;
+  }
+ }
+ @media (max-width: 575.98px) { 
+  .welcome h1{
+    font-size: 1.5rem;
+  }
+  .content__body .body__table h2{
+    font-size: 1.8rem !important;
+  }
+  .content__body .body__table__icon .icon__bed{
+    width: 2.2rem;
+  }
+  .content__body .body__table__icon .icon__bathtub{
+    width: 2.2rem;
+  }
+  .content__body .body__table__icon .icon__m2{
+    width: 1.5rem;
+  }
+  .content__body .body__table__icon .icon__vector{
+    width: 1.5rem;
+  }
+ }

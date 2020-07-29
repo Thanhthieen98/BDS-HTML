@@ -1,0 +1,86 @@
+/* menu  */
+.menu {
+  background-color: var(--colorBlue1);
+  padding: 1.6875rem 0;
+  ;
+}
+
+.menu__logo .btn__collapse i {
+  font-size: 2.5rem;
+}
+
+.menu__nav ul {
+  list-style: none;
+}
+
+.menu__nav ul li {
+  padding-left: 2.8125rem;
+  color: var(--colorWhite);
+}
+
+.menu__nav ul li a {
+  font-size: 1.25rem;
+  color: var(--colorWhite);
+}
+.menu__nav ul li a:hover{
+  color: var(--colorPrimary);
+}
+.menu__nav ul li a:active{
+  color: var(--colorPrimary);
+}
+
+.menu_navMobile {
+  background-color: var(--colorBlue1);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  transform: translateX(-260px);
+}
+
+.menu_navMobile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu_navMobile ul li {
+  border-bottom: 1px solid var(--colorGray1);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.menu_navMobile ul li a {
+  color: var(--colorWhite);
+  font-size: 1.25rem;
+}
+
+.overlay__menu {
+  background-color: var(--colorBlack1);
+  opacity: 0.3;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.overlay__menu.active {
+  display: block;
+}
+
+.menu_navMobile.active {
+  transform: translateX(0);
+}
+
+/* menu end  */
+
+
+
+
+

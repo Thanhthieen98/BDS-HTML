@@ -1,0 +1,58 @@
+/* footer */
+.contact {
+  padding: 1.5625rem 0;
+}
+
+.contact h5 {
+  font-size: 1.5rem;
+}
+
+.info {
+  padding: 3.125rem 0 4.375rem 0;
+}
+
+.info .info__logo h5 {
+  padding: 0.3125rem 0 0 0.4375rem;
+}
+
+.info .info__textContact {
+  padding-top: 1.875rem;
+}
+
+.info .info__textContact i {
+  font-size: 1.25rem;
+  padding-right: 1rem;
+}
+
+.info .info__ul li {
+  font-size: 2rem;
+}
+
+.info .info__ul li a {
+  font-size: 1.5rem;
+  color: var(--colorWhite);
+}
+
+.info .text--info {
+  padding-right: 2.25rem;
+}
+
+.info .info__form input {
+  height: 3.5rem;
+  width: 16.625rem;
+}
+
+.info__form button {
+  width: 3.5rem;
+}
+.info__form {
+  z-index: 0;
+}
+
+.info .text--copyright {
+  font-size: 0.75rem;
+  padding-top: 1.25rem;
+  padding-right: 2rem;
+}
+
+/* footer end  */
